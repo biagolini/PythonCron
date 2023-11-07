@@ -1,0 +1,18 @@
+[
+  {
+    "schedule": "2023-11-01T00:00:00Z",
+    "job": {
+      "message": "ONCE This job will be executed once and then removed",
+      "repeats": 2,
+      "interval": 62
+    }
+  },
+  {
+    "cron": "* * * * *",
+    "job": {
+      "message": "CRON This job will be executed several times",
+      "repeats": 3,
+      "interval": 2
+    }
+  }
+]
